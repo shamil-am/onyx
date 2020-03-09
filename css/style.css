@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+
+/* RESET */
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+
+/* SHORTCUT */
+.d_flex{
+    display:flex;
+}
+.al_it_cen{
+    align-items: center;
+}
+._jus_con_cen{
+    justify-content: center;
+}
+
+
+/* NAV */
+nav{
+    width: 290px;
+    height:100vh;
+    position: fixed;
+    background-image: url(../img/nav.jpg);
+    background-repeat: no-repeat;
+    padding: 0px 0px;
+    color: #fff;
+    font-size: 14px;
+}
+.logo img{
+    height: 82px;
+}
+nav .navcontainer{
+    padding: 70px 40px;
+}
+nav .navcontainer .menu{
+    padding-top:35px;
+}
+nav .navcontainer .menu a{
+    color: #ffffff;
+    display:flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.4s;
+    line-height: 1.8;
+}
+nav .navcontainer .menu a:hover{
+    color: #d34e35;
+}
+nav .navcontainer .menu .differ{
+    color: #d34e35;
+}
+nav .navcontainer .menu a i{
+    margin-right: 10px;
+}
+nav .navcontainer .menu .submenu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+nav .navcontainer .social{
+    padding-top: 20px;
+}
+nav .navcontainer .social h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+nav .navcontainer .social .socialicons a{
+    color: #ffffff;
+}
+nav .navcontainer .social .socialicons a:hover{
+    color: #555;
+}
+nav .navcontainer .social .socialicons i{
+    margin-right: 15px;
+}
